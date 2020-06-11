@@ -12,3 +12,5 @@
 
 
 #4 mensagem de comando 
+
+comando stach
