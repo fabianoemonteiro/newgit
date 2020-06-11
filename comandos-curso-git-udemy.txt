@@ -1,0 +1,180 @@
+
+vim git.txt
+git config --global user.name "Fabiano"
+
+vim git.txt
+git config --global user.email "fabiano.emonteiro@gmail.com"
+
+vim git.txt
+git config --global core.editor vi
+
+vim git.txt
+
+git config --global core.editor vim
+
+git config --global user.name "Fabiano Monteiro"
+
+git config user.name
+
+git config user.email 
+
+git config core.editor
+
+git config --list
+
+mkdir git-course
+
+cd git-course/
+
+git init
+
+vim git.txt
+
+vim /home/ubuntu/git.txt
+cd .git/
+cd branches/
+vim readme.md
+vim /home/ubuntu/git.txt
+git status
+rm readme.md 
+git status
+vim /home/ubuntu/git.txt
+vim readme.md
+git status
+git add readme.md 
+git status
+vim readme.md 
+git status
+git add readme.md 
+git status
+git commit -m "Add Readme.md"
+cat readme.md 
+git status
+vim readme.md 
+git status
+git commit -m "Erro"
+git add readme.md 
+git status
+git commit -m "Versao 2"
+vim /home/ubuntu/git.txt 
+git log
+git log --decorate
+git log --author"Fa"
+git log --author="Fa"
+git log --author="teste"
+git shortlog
+git shortlog --sn
+git shortlog -sn
+git log --graf
+git log --grafh
+git log --graph
+cat /home/ubuntu/.bash_history 
+git show e0295fe4a9a52c525a17797aff57825be1f52bbe
+git show e0295fe4a9a52c525a17797aff57825be1f52bbe
+git status
+vim readme.md 
+git diff
+git status
+git diff --name-only
+cd git-course/
+git status
+git comming -am "Edicao 3"
+git log
+git status
+git commit -m "Versão 3"
+git add readme.md 
+git commit -m "Versão 3"
+git status
+git log
+git show 9a67e4da468f6bd553a680bc73f482ad9ed8f87b
+git log
+git status
+vim readme.md 
+git status
+git diff
+git checout readme.md 
+git diff
+vim readme.md 
+git status
+git checkout readme.md 
+vim readme.md 
+git diff
+vim readme.md 
+git diff
+git add readme.md 
+git status
+git reset HEAD readme.md 
+git status
+git diff
+git checkout readme.md 
+git status
+vim readme.md 
+git status
+git commit -am "Esse tem que voltar"
+git log
+git reset --soft --mixed ==hard
+git reset --soft b4c03787decb4882cea926857824a00df9d7a1da
+git status
+git log
+git reset --soft 9a67e4da468f6bd553a680bc73f482ad9ed8f87b
+git log
+git status
+
+git commit -am "VAI SAIR DE NOVO"
+git log
+
+git reset --mixed 9a67e4da468f6bd553a680bc73f482ad9ed8f87b
+git status
+gif diff
+git diff
+git commit -am "Vai sair de novo"
+git log
+git reset hard 9a67e4da468f6bd553a680bc73f482ad9ed8f87b
+git log
+git reset hard 9a67e4da468f6bd553a680bc73f482ad9ed8f87b
+git reset --hard 9a67e4da468f6bd553a680bc73f482ad9ed8f87b
+git log
+ssh-keygen "fabiano.emonteiro@gmail.com"
+ssh-keygen -t "fabiano.emonteiro@gmail.com"
+ssh-keygen -t rsa -b 4096 "fabiano.emonteiro@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "fabiano.emonteiro@gmail.com"
+cd ~/.ssh/
+ls
+cat id_rsa.pub 
+cd /home/ubuntu/git-course/
+git remote add origin https://github.com/fabianoemonteiro/newgit.git
+git remote
+git remote -v
+git push -u origin master
+vim readme.md 
+git commit -am "versão 4"
+git log
+git push origin master 
+git clone git@github.com:fabianoemonteiro/newgit.git git-master-clone
+ls
+cd git-master-clone/
+
+git checkout -b qa
+ls
+git checkout -b testing
+
+cd git-course/
+
+git checkout -b 'testing'
+
+
+git branch
+
+git checkout testing
+
+git checkout master
+
+git branch
+
+git status
+
+cd git-course/
+
+git status
+
+git branch
